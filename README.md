@@ -28,4 +28,4 @@ npm run android
 - HotspotModule.kt file is present in same directory as MainApplication.kt
 
 
-Note- as we cannot access Hotspot info on Android 10 or higher app will only show devices ip on wifi
+Note- as we cannot access Hotspot info on Android 10 or higher app will only show other devices ip once connected to wifi
