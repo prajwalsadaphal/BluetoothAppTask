@@ -4,7 +4,7 @@ https://developer.android.com/about/versions/10/privacy/changes#proc-net-filesys
 
 
 tried another below solution
-- created a native module to run ping sweep and fetch device ip's. even though this solution only check ip's on wifi network only there no way we can get hotspot ip's as there is restricted access to /proc/net/arp  it requirs device to be rooted or app should be system app.
+- created a native module HotspotModule.kt to run ping sweep and fetch device ip's. even though this solution only check ip's on wifi network only there no way we can get hotspot ip's as there is restricted access to /proc/net/arp  it requirs device to be rooted or app should be system app.
 
 ### setup
 - to run project run below commands in root of project
