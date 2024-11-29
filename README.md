@@ -24,6 +24,7 @@ npm run android
 - device ip is also fetched in getDeviceIp function using packager eact-native-network-info
 - when button is pressed we call getListOfConnectedDevice function where first we check if hotspot is active using lib @react-native-tethering/hotspot.
 - after hotspot is activated we call Native module HotspotModule.kt where network scanning is code is present for running ping sweep and return device ip's on network to react native side. ping sweeping is performed on background thread and require longer as it is scannig all subnet's and getting active device ip's
+- used Wifi manager in HotspotModule.kt to get dhcp info to extract subnet.
 - HotspotModule.kt file is present in same directory as MainApplication.kt
 
 
